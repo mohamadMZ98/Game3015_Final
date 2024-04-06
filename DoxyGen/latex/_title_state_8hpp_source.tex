@@ -1,0 +1,28 @@
+\doxysection{Title\+State.\+hpp}
+\hypertarget{_title_state_8hpp_source}{}\label{_title_state_8hpp_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ "{}State.hpp"{}}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ "{}SceneNode.hpp"{}}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_title_state}{TitleState}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_state}{State}}}
+\DoxyCodeLine{00006\ \{}
+\DoxyCodeLine{00007\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00008\ \ \ \ \ \mbox{\hyperlink{class_title_state}{TitleState}}(\mbox{\hyperlink{class_state_stack}{StateStack}}\&\ stack,\ \mbox{\hyperlink{struct_state_1_1_context}{Context}}\ context);}
+\DoxyCodeLine{00009\ \ \ \ \ \mbox{\hyperlink{class_title_state}{\string~TitleState}}();}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \ \ \ \ \textcolor{keywordtype}{void}\ \ \ \ \ \ \ \ buildScene()\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00012\ \ \ \ \ \textcolor{keywordtype}{void}\ \ \ \ \ \ \ \ draw(\mbox{\hyperlink{class_game}{Game}}*\ game)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keywordtype}{void}\ \ \ \ \ \ \ \ update(\textcolor{keyword}{const}\ GameTimer\&\ gt)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keywordtype}{void}\ \ \ \ \ \ \ \ handleEvent()\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{float}\ promptEffectTime;}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{bool}\ showPrompt;}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \ \ \ \ \mbox{\hyperlink{class_scene_node}{SceneNode}}*\ mBackgroundSprite;}
+\DoxyCodeLine{00022\ \ \ \ \ \mbox{\hyperlink{class_scene_node}{SceneNode}}*\ mPromptText;}
+\DoxyCodeLine{00023\ \};}
+
+\end{DoxyCode}

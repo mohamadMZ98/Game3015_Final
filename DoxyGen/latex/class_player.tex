@@ -1,0 +1,36 @@
+\doxysection{Player Class Reference}
+\hypertarget{class_player}{}\label{class_player}\index{Player@{Player}}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_player_a2da5df212d083bbb1460237f34ab0d88}\label{class_player_a2da5df212d083bbb1460237f34ab0d88} 
+enum {\bfseries Action} \{ {\bfseries Move\+Left}
+, {\bfseries Move\+Right}
+, {\bfseries Move\+Up}
+, {\bfseries Move\+Down}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_player_ae4b310a8b04f3d2b18e2192e5df536fd}\label{class_player_ae4b310a8b04f3d2b18e2192e5df536fd} 
+void {\bfseries initialize\+Actions} ()
+\item 
+\Hypertarget{class_player_a1a0a2008ad8a81caec0b473d231f483f}\label{class_player_a1a0a2008ad8a81caec0b473d231f483f} 
+void {\bfseries handle\+Event} (\mbox{\hyperlink{class_input_command_queue}{Input\+Command\+Queue}} \&commands)
+\item 
+\Hypertarget{class_player_aab9d82be79245fbfeaa899c73c7c1b76}\label{class_player_aab9d82be79245fbfeaa899c73c7c1b76} 
+void {\bfseries handle\+Realtime\+Input} (\mbox{\hyperlink{class_input_command_queue}{Input\+Command\+Queue}} \&commands)
+\item 
+\Hypertarget{class_player_af8c0b2c6a04e0e074355e4c53818e0b8}\label{class_player_af8c0b2c6a04e0e074355e4c53818e0b8} 
+void {\bfseries assign\+Key} (Action action, int key)
+\item 
+\Hypertarget{class_player_a6981eb691fdee98983e69a4daa6b05d0}\label{class_player_a6981eb691fdee98983e69a4daa6b05d0} 
+int {\bfseries get\+Assigned\+Key} (Action action) const
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Player.\+h\item 
+Player.\+cpp\end{DoxyCompactItemize}

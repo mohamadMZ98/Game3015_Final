@@ -1,0 +1,39 @@
+\doxysection{Player.\+h}
+\hypertarget{_player_8h_source}{}\label{_player_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ "{}Command.hpp"{}}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <map>}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_input_command_queue}{InputCommandQueue}};}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_player}{Player}}}
+\DoxyCodeLine{00008\ \{}
+\DoxyCodeLine{00009\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00010\ \ \ \ \ \textcolor{keyword}{enum}\ Action\ \{}
+\DoxyCodeLine{00011\ \ \ \ \ \ \ \ \ MoveLeft,}
+\DoxyCodeLine{00012\ \ \ \ \ \ \ \ \ MoveRight,}
+\DoxyCodeLine{00013\ \ \ \ \ \ \ \ \ MoveUp,}
+\DoxyCodeLine{00014\ \ \ \ \ \ \ \ \ MoveDown}
+\DoxyCodeLine{00015\ \ \ \ \ \};}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \ \ \ \ \mbox{\hyperlink{class_player}{Player}}();}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{void}\ initializeActions();}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{void}\ handleEvent(\mbox{\hyperlink{class_input_command_queue}{InputCommandQueue}}\&\ commands);}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{void}\ handleRealtimeInput(\mbox{\hyperlink{class_input_command_queue}{InputCommandQueue}}\&\ commands);}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{void}\ assignKey(Action\ action,\ \textcolor{keywordtype}{int}\ key);}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{int}\ getAssignedKey(Action\ action)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{comment}{//static\ bool\ isRealTimeAction(Action\ action);\ for\ later}}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \textcolor{keyword}{private}:\ }
+\DoxyCodeLine{00031\ \ \ \ \ std::map<int,\ Action>\ mKeyBinding;}
+\DoxyCodeLine{00032\ \ \ \ \ std::map<Action,\ Command>\ mActionBinding;}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00034\ \};}
+
+\end{DoxyCode}

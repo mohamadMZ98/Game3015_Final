@@ -1,0 +1,53 @@
+\doxysection{State\+Stack Class Reference}
+\hypertarget{class_state_stack}{}\label{class_state_stack}\index{StateStack@{StateStack}}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_state_stack_af804142a55cd477767353e0abbcc218c}\label{class_state_stack_af804142a55cd477767353e0abbcc218c} 
+enum {\bfseries Action} \{ {\bfseries Push}
+, {\bfseries Pop}
+, {\bfseries Clear}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_state_stack_a365f29afd04a9370f6638cbe3b4ff92a}\label{class_state_stack_a365f29afd04a9370f6638cbe3b4ff92a} 
+{\bfseries State\+Stack} (\mbox{\hyperlink{struct_state_1_1_context}{State\+::\+Context}} context)
+\item 
+\Hypertarget{class_state_stack_a9d64daa479c2cccad6f2ede77741a352}\label{class_state_stack_a9d64daa479c2cccad6f2ede77741a352} 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries register\+State} (States\+::\+ID state\+ID)
+\item 
+\Hypertarget{class_state_stack_a46a1bb93b5dc124989580147080b45ad}\label{class_state_stack_a46a1bb93b5dc124989580147080b45ad} 
+void {\bfseries build\+Scene} ()
+\item 
+\Hypertarget{class_state_stack_a2257136bee690dea6028e903079ec672}\label{class_state_stack_a2257136bee690dea6028e903079ec672} 
+void {\bfseries update} (const Game\+Timer \&gt, States\+::\+ID id\+Of\+Rendered\+State)
+\item 
+\Hypertarget{class_state_stack_a3fee200da8b9d9ea15605b0b236e1cfc}\label{class_state_stack_a3fee200da8b9d9ea15605b0b236e1cfc} 
+void {\bfseries draw} (\mbox{\hyperlink{class_game}{Game}} \texorpdfstring{$\ast$}{*}game, States\+::\+ID id\+Of\+Rendered\+State)
+\item 
+\Hypertarget{class_state_stack_a12f3bc4dcd5004d764c3c298c24867aa}\label{class_state_stack_a12f3bc4dcd5004d764c3c298c24867aa} 
+void {\bfseries handle\+Event} (States\+::\+ID id\+Of\+Rendered\+State)
+\item 
+\Hypertarget{class_state_stack_a80ed85f0fc13039e6f4c7dfef19e608f}\label{class_state_stack_a80ed85f0fc13039e6f4c7dfef19e608f} 
+void {\bfseries push\+State} (States\+::\+ID state\+ID)
+\item 
+\Hypertarget{class_state_stack_a7e050a57b798295c2344f1318765b5ee}\label{class_state_stack_a7e050a57b798295c2344f1318765b5ee} 
+void {\bfseries pop\+State} ()
+\item 
+\Hypertarget{class_state_stack_a49f0703d4037c3bf63494e64cb09898d}\label{class_state_stack_a49f0703d4037c3bf63494e64cb09898d} 
+void {\bfseries clear\+States} ()
+\item 
+\Hypertarget{class_state_stack_a4d9dc16e1a69640b6a85c224fe1c3f33}\label{class_state_stack_a4d9dc16e1a69640b6a85c224fe1c3f33} 
+bool {\bfseries is\+Empty} () const
+\item 
+\Hypertarget{class_state_stack_af664f95954b4621175c9fc0f9d30fdf0}\label{class_state_stack_af664f95954b4621175c9fc0f9d30fdf0} 
+void {\bfseries apply\+Pending\+Changes} ()
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+State\+Stack.\+hpp\item 
+State\+Stack.\+cpp\end{DoxyCompactItemize}

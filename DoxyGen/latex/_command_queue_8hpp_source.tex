@@ -1,0 +1,18 @@
+\doxysection{Command\+Queue.\+hpp}
+\hypertarget{_command_queue_8hpp_source}{}\label{_command_queue_8hpp_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ "{}Command.hpp"{}}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <queue>}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_input_command_queue}{InputCommandQueue}}}
+\DoxyCodeLine{00006\ \{}
+\DoxyCodeLine{00007\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00008\ \ \ \ \ \textcolor{keywordtype}{void}\ push(\textcolor{keyword}{const}\ \mbox{\hyperlink{struct_command}{Command}}\&\ command);}
+\DoxyCodeLine{00009\ \ \ \ \ \mbox{\hyperlink{struct_command}{Command}}\ pop();}
+\DoxyCodeLine{00010\ \ \ \ \ \textcolor{keywordtype}{bool}\ isEmpty()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00011\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00012\ \ \ \ \ std::queue<Command>\ mQueue;}
+\DoxyCodeLine{00013\ \};}
+
+\end{DoxyCode}
