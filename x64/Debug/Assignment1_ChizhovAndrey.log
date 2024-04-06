@@ -1,0 +1,79 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Assignment1_ChizhovAndrey.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Command.cpp
+  CommandQueue.cpp
+  Camera.cpp
+  d3dApp.cpp
+  d3dUtil.cpp
+  DDSTextureLoader.cpp
+  GameTimer.cpp
+  GeometryGenerator.cpp
+  MathHelper.cpp
+  FrameResource.cpp
+  Game.cpp
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\State.hpp(11,32): warning C4099: 'ID3D12GraphicsCommandList': type name first seen using 'struct' now seen using 'class'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(5784,5): message : see declaration of 'ID3D12GraphicsCommandList'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\StateStack.hpp(13,32): warning C4099: 'ID3D12GraphicsCommandList': type name first seen using 'struct' now seen using 'class'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\State.hpp(11,7): message : see declaration of 'ID3D12GraphicsCommandList'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\Game.cpp(42,21): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\Game.cpp(491,45): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\Game.cpp(558,50): warning C4129: 'S': unrecognized character escape sequence
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\Game.cpp(559,48): warning C4129: 'S': unrecognized character escape sequence
+  GameState.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(169,70): warning C4099: 'ID3D12GraphicsCommandList': type name first seen using 'class' now seen using 'struct'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\State.hpp(11,7): message : see declaration of 'ID3D12GraphicsCommandList'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(5784,31): warning C4099: 'ID3D12GraphicsCommandList': type name first seen using 'class' now seen using 'struct'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(5784,5): message : see declaration of 'ID3D12GraphicsCommandList'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\StateStack.hpp(13,32): warning C4099: 'ID3D12GraphicsCommandList': type name first seen using 'struct' now seen using 'class'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(5784,5): message : see declaration of 'ID3D12GraphicsCommandList'
+  main.cpp
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\State.hpp(11,32): warning C4099: 'ID3D12GraphicsCommandList': type name first seen using 'struct' now seen using 'class'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(5784,5): message : see declaration of 'ID3D12GraphicsCommandList'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\StateStack.hpp(13,32): warning C4099: 'ID3D12GraphicsCommandList': type name first seen using 'struct' now seen using 'class'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\State.hpp(11,7): message : see declaration of 'ID3D12GraphicsCommandList'
+  MenuState.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(169,70): warning C4099: 'ID3D12GraphicsCommandList': type name first seen using 'class' now seen using 'struct'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\State.hpp(11,7): message : see declaration of 'ID3D12GraphicsCommandList'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(5784,31): warning C4099: 'ID3D12GraphicsCommandList': type name first seen using 'class' now seen using 'struct'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(5784,5): message : see declaration of 'ID3D12GraphicsCommandList'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\StateStack.hpp(13,32): warning C4099: 'ID3D12GraphicsCommandList': type name first seen using 'struct' now seen using 'class'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(5784,5): message : see declaration of 'ID3D12GraphicsCommandList'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\MenuState.cpp(22,35): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\MenuState.cpp(28,34): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\MenuState.cpp(34,34): warning C4305: 'argument': truncation from 'double' to 'float'
+  PauseState.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(169,70): warning C4099: 'ID3D12GraphicsCommandList': type name first seen using 'class' now seen using 'struct'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\State.hpp(11,7): message : see declaration of 'ID3D12GraphicsCommandList'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(5784,31): warning C4099: 'ID3D12GraphicsCommandList': type name first seen using 'class' now seen using 'struct'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(5784,5): message : see declaration of 'ID3D12GraphicsCommandList'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\StateStack.hpp(13,32): warning C4099: 'ID3D12GraphicsCommandList': type name first seen using 'struct' now seen using 'class'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(5784,5): message : see declaration of 'ID3D12GraphicsCommandList'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\PauseState.cpp(22,35): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\PauseState.cpp(28,38): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\PauseState.cpp(34,34): warning C4305: 'argument': truncation from 'double' to 'float'
+  Player.cpp
+  SceneNode.cpp
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\State.hpp(11,32): warning C4099: 'ID3D12GraphicsCommandList': type name first seen using 'struct' now seen using 'class'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(5784,5): message : see declaration of 'ID3D12GraphicsCommandList'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\StateStack.hpp(13,32): warning C4099: 'ID3D12GraphicsCommandList': type name first seen using 'struct' now seen using 'class'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\State.hpp(11,7): message : see declaration of 'ID3D12GraphicsCommandList'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\SceneNode.cpp(185,53): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+  State.cpp
+  StateStack.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(169,70): warning C4099: 'ID3D12GraphicsCommandList': type name first seen using 'class' now seen using 'struct'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\StateStack.hpp(13,7): message : see declaration of 'ID3D12GraphicsCommandList'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(5784,31): warning C4099: 'ID3D12GraphicsCommandList': type name first seen using 'class' now seen using 'struct'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(5784,5): message : see declaration of 'ID3D12GraphicsCommandList'
+  TitleState.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(169,70): warning C4099: 'ID3D12GraphicsCommandList': type name first seen using 'class' now seen using 'struct'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\State.hpp(11,7): message : see declaration of 'ID3D12GraphicsCommandList'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(5784,31): warning C4099: 'ID3D12GraphicsCommandList': type name first seen using 'class' now seen using 'struct'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(5784,5): message : see declaration of 'ID3D12GraphicsCommandList'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\StateStack.hpp(13,32): warning C4099: 'ID3D12GraphicsCommandList': type name first seen using 'struct' now seen using 'class'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\d3d12.h(5784,5): message : see declaration of 'ID3D12GraphicsCommandList'
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\TitleState.cpp(28,34): warning C4305: 'argument': truncation from 'double' to 'float'
+  Generating Code...
+  Compiling...
+  World.cpp
+D:\College Labs\GameEngineDevelopment2\GAME3015_Final\Assignment1_ChizhovAndrey\World.cpp(40,34): warning C4305: 'argument': truncation from 'double' to 'float'
+  Generating Code...
+  Assignment1_ChizhovAndrey.vcxproj -> D:\College Labs\GameEngineDevelopment2\GAME3015_Final\x64\Debug\Game3015_Final.exe
